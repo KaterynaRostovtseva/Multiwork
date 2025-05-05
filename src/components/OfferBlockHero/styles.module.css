@@ -1,0 +1,22 @@
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.marqueeContainer {
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.marqueeText {
+    display: inline-block;
+    padding-right: 150px;
+    /* white-space: nowrap; */
+    animation: scroll 20s linear infinite;
+    
+}
