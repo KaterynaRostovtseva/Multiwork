@@ -13,9 +13,10 @@ The platform allows you to:
 
 The project was developed using the following technologies:
 
-- **React** 
+- **React**
 - **Redux Toolkit**
-- **Material-UI (MUI)** 
+- **Strapi** (content API)
+- **Material-UI (MUI)**
 - **React Router**
 - **Axios** and **Fetch**
 - **React-Beautiful-DND**
